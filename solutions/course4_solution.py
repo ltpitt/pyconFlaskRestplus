@@ -3,11 +3,13 @@
 import csv
 import logging as logger
 import os
+
 from flask import jsonify, request
 from flask_restx import Resource, fields
 from werkzeug.exceptions import BadRequest
 
-from solutions import create_api, create_app, mainTitle, course4_field_names
+from solutions import create_api, create_app, course4_field_names
+from texts import mainTitle
 
 app = create_app()  # pylint: disable=invalid-name
 api = create_api(app, mainTitle, 'Example Employee API')  # pylint: disable=invalid-name

@@ -2,7 +2,7 @@
 
 mainTitle = 'PYCON 2019 - flask_restplus workshop'
 
-#COURSE 1
+# COURSE 1
 descriptiveTextCourse1 = """
 <H1>Welcome to the flask restplus workshop for the pycon2019 UK.</H1>
 This short workshop will teach you some of the basics for using flask with the flask_restplus module.<BR>
@@ -13,7 +13,7 @@ Go to the the swagger interface (http://127.0.0.1:5000), but my guess is, you ar
 Click on default
 Click on question1 (or a next question if you like)
 Click try it out
-Click on execute 
+Click on execute
 
 The last step atually calls a simple get api and returns you the first exercise in the response body field.
 
@@ -33,15 +33,16 @@ All api endpoints start of with an @api.route annotation. So for your own questi
 
 Directly following this endpoint define a new class, this class will handle all interaction with your endpoint
 
-Within the new class declare a get method. Flask restplus will recognize this as the code to be executed if a get http call 
-is made to your api endpoint. That easy, no extra declarations are needed.
+Within the new class declare a get method.
+Flask restplus will recognize this as the code to be executed if a get http call is made to your api endpoint.
+That easy, no extra declarations are needed.
 
 Any value returned by your get method will be the data returned by your api. For now we stick to strings but,
 flask restplus has some nice additional tricks for easy json creation.
 
 """
 
-#COURSE 2
+# COURSE 2
 descriptiveTextCourse2 = """
 Course file 2 leanrs you how to accept parameters in your API,
 we will start with reading the parameters from the HTTP Get call.
@@ -63,7 +64,7 @@ Documenting parameters can be done using the following annotation
 
 """
 
-#COURSE 3
+# COURSE 3
 descriptiveTextCourse3 = """
 Course 3, will teach you how to read and return json. But also how to describe your api 
 in swagger, using a model"""
@@ -82,7 +83,7 @@ into useful json automatically
 https://flask-restplus.readthedocs.io/en/stable/marshalling.html 
 """
 
-#COURSE 4
+# COURSE 4
 descriptiveTextCourse4 = """
 Course 4 is where it all comes together. I hope you have time, else try so at a later moment
 

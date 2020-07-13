@@ -1,13 +1,14 @@
 """Module for the solutions of course3.py"""
 
 import os
+
 from flask import jsonify
 from flask import request
 from flask_restx import Resource, fields
 from werkzeug.exceptions import BadRequest
 
-from solutions import create_api, create_app, mainTitle, \
-    awesome_dictionary_to_return
+from solutions import create_api, create_app, awesome_dictionary_to_return
+from texts import mainTitle
 
 app = create_app()  # pylint: disable=invalid-name
 api = create_api(app, mainTitle, 'Course 3 Solution')  # pylint: disable=invalid-name

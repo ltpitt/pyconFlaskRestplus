@@ -1,10 +1,9 @@
 #!/usr/bin/python3.6
 
 import os
-import random
-import string
-from flask import Flask, request
-from flask_restx import Api, Resource, fields
+
+from flask import Flask
+from flask_restx import Api, Resource
 
 from texts import *
 
